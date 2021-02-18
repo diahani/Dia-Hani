@@ -1,20 +1,112 @@
-.calc{
+body {
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:12px;
+    background-color:whitesmoke;
+}
+  
+a {
+    text-decoration:none;
+}
+
+.container{
     width:400px;
-    height:600px;
-    background:gray;
-    margin-left:400px;
+    margin:80px auto;
+    background-color:#fff;
+    text-align:center;
+    padding:20px;
+    overflow:hidden;
+    box-shadow: 1 2px 6px  rgba(0,0,0,0.1),
+    0 6px 8px rgba(0,0,0,0,0.1);
+
 }
-#screen{
-    width: 80%;
-    margin-left: 35px;
-    height: 50px;
-    margin-top: 34px;
-    pointer-events:none;
+
+.container .heading{
+    font-size:45px;
+    color:#1877f2;
+    font-weight:bolder;
+    cursor:pointer;
+    
 }
-.btn{
-    width:53px;
-    height:43px;
-    margin-left: 35px;
-    margin-top: 54px;
-    background: rgb(241, 233, 218);
+
+.container  .form-wrapper form p{
+    font-weight:400;
 }
+
+.container  .form-wrapper form .formInput input{
+    width:332px;
+    height:50px;
+    border:1px solid rgba(128, 128, 128, 0.431);
+    border-radius:6px;
+    margin:5px 0;
+    font-size:18px;
+    padding:6px 15px;
+    outline:none;
+}
+
+.container .form-wrapper form .submission{
+    margin: 10px 0;
+}
+
+.container .form-wrapper form .submission{
+    margin:10px 0;
+}
+
+.container .form-wrapper form .submission{
+    margin:10px 0;
+}
+
+.container .form-wrapper form .submission
+button{
+    color:#fff;
+    border:1px solid #1877f2;
+    background-color:#1877f2;
+    border-radius:6px;
+    width:380px;
+    height:50px;
+    cursor:pointer;
+    outline:none;
+    font-size:18px;
+    font-weight:bolder;
+}
+
+.container .form-wrapper form span{
+    font-size:14px;
+}
+
+.container .form-wrapper form .lines::before{
+    position:absolute;
+    content:'';
+    width:100px;
+    height:1px;
+    background-color:#333;
+    margin-top:9px;
+    margin-left:-230px;
+}
+
+.container .form-wrapper form .register
+button{
+    color:#fff;
+    border:1px solid #42b72a;
+    background-color:#42b72a;
+    border-radius:6px;
+    width:390px;
+    height:50px;
+    cursor:pointer;
+    outline:none;
+    font-size:18px;
+    font-weight:bolder;
+}
+
+.container .form-wrapper .forget{
+    margin:11px 0;
+}
+
+.container .form-wrapper .forget a{
+    font-weight:500;
+    font-size:14px;
+}
+
+.container .form-wrapper form span{
+    font-size:14px;
+}
+
